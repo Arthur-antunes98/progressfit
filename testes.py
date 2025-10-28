@@ -21,7 +21,7 @@ time.sleep(1)
 campo_senha = driver.find_element(By.ID, "password")
 campo_senha.send_keys("123teste")
 
-time.sleep(2)
+time.sleep(1)
 
 campo_email.clear()
 campo_senha.clear()
@@ -42,7 +42,7 @@ button = driver.find_element(By.ID, "btn")
 button.click()
 url_home = 'file:///C:/Users/Yago Victor/Documents/fork_progressfit/progressfit/home.html'
 driver.get(url_home)
-time.sleep(5)
+time.sleep(3)
 
 
 # --- Teste 2: get_attribute() ---
