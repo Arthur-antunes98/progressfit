@@ -48,5 +48,5 @@ if campo_protocolos:
 else: 
     print("Ocorreu algum erro na exibição dos protocolos")
 
-time.sleep(3)
+time.sleep(2)
 driver.quit()
