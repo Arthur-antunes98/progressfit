@@ -43,7 +43,7 @@ driver.find_element(By.ID, "btn").click()
 print(f"Caminho da página: {driver.current_url}\n Nome da página: {driver.title}")
 
 campo_protocolos = driver.find_element(By.CLASS_NAME, "cards")
-if campo_protocolos:
+if campo_protocolos.is_displayed():
     print("Os protocolos estão visiveis na tela home")
 else: 
     print("Ocorreu algum erro na exibição dos protocolos")
